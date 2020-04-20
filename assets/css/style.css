@@ -1,9 +1,16 @@
+$desktop: 1200px;
+$laptop: 1024px;
+$tablet: 760px;
+$phone: 480px;
+
 body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 18px;
   line-height: 34px;
   color: #777777;
   background: url("../images/concrete_seamless.png");
+    
+  }
 }
 
 * {
@@ -17,6 +24,9 @@ body {
   max-width: 960px;
   margin: 0 auto;
   clear: both;
+  @media screen {
+    
+  }
 }
 
 h1,
@@ -61,6 +71,9 @@ h3 {
   color: #ffffff;
   background: #ffffff;
   border-bottom: 2px solid #cccccc;
+  @media screen {
+    
+  }
 }
 
 #logo {
@@ -74,12 +87,15 @@ h3 {
   color: #ffffff;
   text-align: center;
   text-decoration: none;
-  background: #4aaaa5;
+  background: #4aaaa5
 }
 
 nav {
   float: right;
   margin-top: 25px;
+  @media screen {
+    
+  }
 }
 
 nav a {
@@ -90,6 +106,9 @@ nav a {
   color: #999;
   text-decoration: none;
   border-left: 1px solid #efefef;
+  @media screen {
+    
+  }
 }
 
 nav a:first-child {
@@ -122,6 +141,9 @@ h3, h2 {
 #main-container {
   padding-top: 130px;
   min-height: calc(100vh - 70px);
+  @media screen {
+    
+  }
 }
 
 .main-section {
@@ -132,6 +154,9 @@ h3, h2 {
   margin: 0 0 40px;
   background: #ffffff;
   border: 1px solid #dddddd;
+  @media screen {
+    
+  }
 }
 
 /* portfolio page */
@@ -142,6 +167,9 @@ h3, h2 {
   width: 274px;
   margin: 20px 0 25px;
   overflow: auto;
+  @media screen {
+    
+  }
 }
 
 .work:nth-child(even) {
